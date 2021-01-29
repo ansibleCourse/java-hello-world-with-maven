@@ -48,4 +48,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>test--mub_javaRepo</id>
+            <name>test--mub_javaRepo</name>
+            <url>https://test-535589934812.d.codeartifact.us-east-2.amazonaws.com/maven/mub_javaRepo/</url>
+        </repository>
+    </distributionManagement>
 </project>
